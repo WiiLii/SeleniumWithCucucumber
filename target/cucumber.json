@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-01T23:48:53.723Z",
+        "start_timestamp": "2024-02-29T04:33:34.253Z",
         "before": [
           {
             "result": {
-              "duration": 1365492000,
+              "duration": 2131408200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 67775000,
+              "duration": 61831900,
               "status": "passed"
             },
             "match": {
@@ -35,13 +35,12 @@
         "steps": [
           {
             "result": {
-              "duration": 1391872000,
+              "duration": 1358036200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 302000,
                   "status": "passed"
                 },
                 "match": {
@@ -57,7 +56,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 31000,
                   "status": "passed"
                 },
                 "match": {
@@ -69,13 +67,13 @@
           },
           {
             "result": {
-              "duration": 237815000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027UserName\u0027]\"}\n  (Session info: chrome-headless-shell\u003d122.0.6261.70)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b5cc7a53cb0060e22b9a0c03c01d2554, findElement {using\u003dname, value\u003dUserName}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\Willie\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51666/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b5cc7a53cb0060e22b9a0c03c01d2554\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)\r\n\tat pages.LoginPage.Login(LoginPage.java:29)\r\n\tat steps.LoginStep.iEnterTheFollowingForLogin(LoginStep.java:70)\r\n\tat ✽.I enter the following for Login(file:///C:/Users/Willie/Documents/GitHub/SeleniumWithCucucumber/src/test/java/features/Login.feature:6)\r\n",
+              "duration": 50979200,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 48000,
                   "status": "passed"
                 },
                 "match": {
@@ -91,7 +89,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 28000,
                   "status": "passed"
                 },
                 "match": {
@@ -117,14 +114,13 @@
           },
           {
             "result": {
-              "duration": 393921000,
-              "status": "passed"
+              "duration": 997000,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 53000,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -139,8 +135,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 29000,
-                  "status": "passed"
+                  "duration": 996600,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -151,14 +147,12 @@
           },
           {
             "result": {
-              "duration": 30750000,
-              "status": "passed"
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 42000,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -173,8 +167,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 34000,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -186,11 +179,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-01T23:48:57.219Z",
+        "start_timestamp": "2024-02-29T04:33:37.898Z",
         "before": [
           {
             "result": {
-              "duration": 556267000,
+              "duration": 1208803700,
               "status": "passed"
             },
             "match": {
@@ -205,7 +198,7 @@
         "after": [
           {
             "result": {
-              "duration": 67597000,
+              "duration": 57147200,
               "status": "passed"
             },
             "match": {
@@ -218,13 +211,12 @@
         "steps": [
           {
             "result": {
-              "duration": 1362973000,
+              "duration": 1226485500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 55000,
                   "status": "passed"
                 },
                 "match": {
@@ -240,7 +232,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 27000,
+                  "duration": 997800,
                   "status": "passed"
                 },
                 "match": {
@@ -252,13 +244,14 @@
           },
           {
             "result": {
-              "duration": 233299000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027UserName\u0027]\"}\n  (Session info: chrome-headless-shell\u003d122.0.6261.70)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2c4e71611454dea84dd654ba28e196ed, findElement {using\u003dname, value\u003dUserName}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\Willie\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51683/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2c4e71611454dea84dd654ba28e196ed\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)\r\n\tat pages.LoginPage.Login(LoginPage.java:29)\r\n\tat steps.LoginStep.iEnterTheFollowingForLogin(LoginStep.java:70)\r\n\tat ✽.I enter the following for Login(file:///C:/Users/Willie/Documents/GitHub/SeleniumWithCucucumber/src/test/java/features/Login.feature:14)\r\n",
+              "duration": 15956200,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 40000,
+                  "duration": 998400,
                   "status": "passed"
                 },
                 "match": {
@@ -274,7 +267,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 30000,
                   "status": "passed"
                 },
                 "match": {
@@ -300,14 +292,12 @@
           },
           {
             "result": {
-              "duration": 404723000,
-              "status": "passed"
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 38000,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -322,8 +312,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 28000,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -334,14 +323,12 @@
           },
           {
             "result": {
-              "duration": 123000,
-              "status": "passed"
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 37000,
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
@@ -356,8 +343,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 11000,
-                  "status": "passed"
+                  "duration": 996800,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
@@ -370,7 +357,7 @@
       }
     ],
     "name": "LoginFeature",
-    "description": "  This feature deals with the login functionality of the application",
+    "description": "  This feature deals with the login functionality of the applications",
     "id": "loginfeature",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/Login.feature",
